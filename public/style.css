@@ -1,0 +1,117 @@
+body {
+    margin: 0px;
+    padding: 0px
+}
+
+.sectone {
+    margin-top: 30px
+}
+
+.title {
+    display: inline-block;
+    float: left;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar ul{
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px
+}
+
+.navbar li {
+    display: inline-block;
+    margin-left: 30px
+}
+
+.navelements {
+    float: right;
+    margin-left: 1900px
+
+}
+
+.navbutton {
+    margin-left: 20px;
+}
+
+.opening {
+    background: linear-gradient(90deg, rgba(83,77,172,1) 0%, rgba(9,85,121,1) 35%, rgba(0,212,255,1) 100%);
+    padding: 20px
+}
+
+.opening h1 {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    font-weight: medium;
+    display: inline-block;
+    margin-left: 1200px;
+    
+}
+
+.opening p {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    max-width: 500px;
+    margin-left: 1000px;
+    line-height: 30px;
+}
+
+.sectiontwo {
+    margin-top: 150px;
+}
+
+.sectiontwo h1 {
+    font-size: 60px;
+    margin: 10px;
+    text-align: center;
+}
+
+.secp {
+    font-size: 16px;
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+    margin-top: 80px;
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 600px;
+    margin-right: 40px;
+    margin-left: 10px
+}
+
+.card h5 {
+    font-size: 20px;
+    text-align: left;
+    margin-top: 20px
+}
+
+
+.card p {
+    font-size: 15px;
+    text-align: left;
+    margin-top: 20px
+}
+
+.card img {
+    display: inline-block;
+    height: 200px;
+    background-color: grey;
+}
+
+.cardbutton {
+    height: 40px;
+    width: 90px;
+    border-radius: 15px;
+    padding: 10px
+}
